@@ -1,0 +1,60 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+header{
+  background: #000;
+}
+
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo{
+  display: flex;
+    align-items: center;
+}
+
+header .logo svg{
+  filter: invert(1);
+  width: 135px;
+}
+
+header .menu nav ul li{
+  display: inline-flex;
+}
+
+header .menu nav ul li a{
+  padding: 30px 17px;
+  color: #fff;
+  font-weight: 700;
+  font-family: "Circular Air Book";
+}
+
+header .menu nav ul li a:hover{
+  color: #1ED760;
+}
+
+header .menu nav ul li.separator{
+  width: 1px;
+    height: 17px;
+    background: #fff;
+    margin: -4px auto;
+}
+
+
+
+
