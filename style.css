@@ -1,59 +1,164 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-li{
+li {
   list-style: none;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-header{
+/* HEADER */
+
+header {
   background: #000;
 }
 
-.container{
+header>.container {
   max-width: 1170px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
 }
 
-header .logo{
+header .logo {
   display: flex;
-    align-items: center;
+  align-items: center;
 }
 
-header .logo svg{
+header .logo svg {
   filter: invert(1);
   width: 135px;
 }
 
-header .menu nav ul li{
+header .menu nav ul li {
   display: inline-flex;
 }
 
-header .menu nav ul li a{
+header .menu nav ul li a {
+  text-decoration: none;
   padding: 30px 17px;
   color: #fff;
   font-weight: 700;
   font-family: "Circular Air Book";
 }
 
-header .menu nav ul li a:hover{
-  color: #1ED760;
+header .menu nav ul li a:hover {
+  color: #1ed760;
 }
 
-header .menu nav ul li.separator{
+header .menu nav ul li.separator {
   width: 1px;
-    height: 17px;
-    background: #fff;
-    margin: -4px auto;
+  height: 17px;
+  background: #fff;
+  margin: -4px auto;
 }
+
+
+
+/* SECTION 1 */
+.sect1{
+  background: #a5ffef;
+}
+
+.sect1> .container{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  padding: 80px 0 40px;
+}
+
+.sect1 .sect1-texts{
+  width: 53%;
+  padding-right:50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sect1 .sect1-texts p.sect1-txt1{
+  margin: 14px 0 32px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Circular Air Book';
+  font-weight: bold;
+  color: #cb1582;
+  letter-spacing: 0.05em;
+}
+
+.sect1 .sect1-texts h1.sect1-txt2{
+  font-size: 64px;
+  font-family:'Circular Air Book';
+  line-height: 64px !important;
+  color: #cb1582;
+  margin-bottom: 10px;
+}
+
+.sect1 .sect1-texts p.sect1-txt3{
+  font-size: 18px;
+  font-family: 'Circular Air Book';
+  color: #cb1582;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+
+.sect1 .sect1-texts p.sect1-txt4{
+  font-size: 18px;
+  font-family: 'Circular Air Book';
+  color: #cb1582;
+  font-weight: 500;
+  margin-top: 8px;
+}
+
+
+.sect1 .sect1-texts .btn-g3mf{
+  padding: 17px 48px;
+  background: #cb1582;
+  border-radius: 50px;
+  width: 307px;
+  text-align: center;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 700;
+  font-family: 'Circular Air Book';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-top: 39px;
+}
+
+.sect1 .sect1-texts .btn-g3mf:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.sect1 .sect1-texts .btn-g3mf:active{
+  background-color: #8e0f5b;
+  color: #fff;
+}
+
+.sect1 .sect1-texts span.sect1-txt5{
+  font-size: 13px;
+  margin: 27px 0;
+  color: #cb1582;
+  font-family: 'Circular Air Book';
+}
+
+.sect1 .sect1-img{
+  background-image: url(/img/holiday-2020-second-wave.jpg);
+  width: 500px;
+  height: 500px;
+  padding-left: 56px;
+  background-size: contain;
+  background-origin: content-box;
+  background-repeat: no-repeat;
+  margin: 16px 0;
+}
+
+
 
 
 
