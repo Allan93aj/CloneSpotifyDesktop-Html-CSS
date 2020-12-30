@@ -6,4 +6,5 @@ clonando a pagina Desktop do Spotify usando Html e css
 <img src="header.png">
 
 2° pt - SECTION 1 DESKTOP
+<img src="section1.png">
 
