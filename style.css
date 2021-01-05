@@ -159,7 +159,109 @@ header .menu nav ul li.separator {
 }
 
 
+/* SECTION 2 */
 
+.sect2{
+  background: #cb1582;
+}
 
+.sect2> .container{
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  padding: 130px 0;
+}
 
+.sect2 > .container .wrapper-img-sect2{
+  width: 45%;
+  position: relative;
+}
 
+.sect2 > .container .wrapper-img-sect2 .sect2-img{
+  background-size: 100% 324px;
+  padding: 0 55px;
+  background: linear-gradient(359.37deg, #000 3.09%, #FF4632 22.4%, #FAE62D 46.64%, #9BF0E1 62.15%, #A0C3D2 79.91%, #4100F5 99.49%);
+  background-repeat: no-repeat;
+  height: 390px;
+  width: 100%;
+}
+
+.sect2 > .container .wrapper-img-sect2 .front-img{
+  width: 80%;
+  background: #a5ffef;
+  position: absolute;
+  height: calc(100% + 80px);
+  top: -40px;
+  padding: 40px;
+  transform: translate(-50%, 0);
+  left: 50%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.sect2 > .container .wrapper-img-sect2 .front-img h4{
+  font-size: 45px;
+  font-family: 'Circular Air Book';
+  line-height: 70px;
+  color: #cb1582;
+  letter-spacing: -0,04em;
+  font-weight: 100;
+}
+
+.sect2 > .container .wrapper-txts-sect2{
+  width: 55%;
+  padding-left: 100px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: -40px;
+}
+
+.sect2 p.sect2-txt1{
+  margin: 0 0 40px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: 'Circular Air Book';
+  font-weight: 500;
+  color: #a5ffef;
+  letter-spacing: 0.09em;
+}
+
+.sect2 .sect2-txt2{
+  font-size: 70px;
+  font-family: 'Circular Air Book';
+  line-height: 75px;
+  margin-bottom: 40px;
+  color: #a5ffef;
+  font-weight: 100;
+}
+
+.sect2 .sect2-txt3{
+  font-size: 18px;
+  line-height: 24px;
+  color: #a5ffef;
+  font-family: 'Circular Air Book';
+  margin-bottom: 40px;
+  font-weight: 100;
+}
+
+.sect2 .wrapper-txts-sect2 .btn-csr{
+  padding: 17px 48px;
+  background: #a5ffef;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 14px;
+  color: #cb1582;
+  font-weight: bold;
+  font-family: 'Circular Air Book';
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  width: 70%;
+}
+
+.sect2 .wrapper-txts-sect2 .btn-csr:hover{
+  background: #fff;
+  -webkit-transform: scale(1.04);
+  -ms-transform: scale(1.04);
+  transform: scale(1.04);
+}
